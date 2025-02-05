@@ -12,6 +12,7 @@ int main()
 	{
 		cout << num << " is divisble by " << n ;
 	}
+	
 	else
 	{
 		cout << num << " is not divisble by " << n ;
