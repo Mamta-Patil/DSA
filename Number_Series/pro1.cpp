@@ -1,3 +1,4 @@
+// 2, 1, (1/2), (1/4), (1/6)
 #include<iostream>
 using namespace std;
 int main()
@@ -8,7 +9,8 @@ int main()
 	for(int i=1;i<=10;i++)
 	{
 		second=second*2;
-		cout << "1/" << (second*1) << " " ;
+		cout << "1/" << (second*10) << " " ;
 		i++;
 	}
 }
+
