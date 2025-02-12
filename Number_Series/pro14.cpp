@@ -8,8 +8,6 @@ int main()
 	for (int i=1;i<=10;i++)
 	{
 		cout << first << " ";
-//		num++;
-//		num+=1;
         first+=second;
         second++;
 		i++;
