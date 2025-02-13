@@ -8,13 +8,13 @@
 using namespace std;
 int main()
 {
-	 int n = 5;
+	int n = 5;
     
     for (int i = 5; i >=1; i--) {
-        for (int j = i; j < n - i; j++) {
+        for (int k = 1; k < i; k++) {
             cout << "  "; 
         }
-        for (int j = i; j >=1; j--) {
+        for (int j = 5; j >=i; j--) {
             cout << j << " ";
         }
         cout << endl;
