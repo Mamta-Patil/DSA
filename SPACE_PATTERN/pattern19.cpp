@@ -3,12 +3,13 @@
     //     1 0 1
     //       0 1
     //         1
+
 #include <iostream>
 using namespace std;
 
 int main()
-{    
-
+{
+    
     for (int i = 1; i <= 5; i++) 
     {
         for (int k = 1; k < i; k++) 

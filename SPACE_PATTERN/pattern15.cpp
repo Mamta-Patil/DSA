@@ -1,15 +1,16 @@
+    // A B C D E
+    //   A B C D
+    //     A B C
+    //       A B
+    //         A
+   
 #include <iostream>
 
 using namespace std;
 
 int main()
 {
-    // A B C D E
-    //   A B C D
-    //     A B C
-    //       A B
-    //         A
-
+   
     for (char i = 'E'; i >= 'A'; i--) 
     {
         for (char k = 'E'; k > i; k--) 

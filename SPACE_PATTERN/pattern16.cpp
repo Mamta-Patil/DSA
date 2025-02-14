@@ -1,22 +1,23 @@
+    // A B C D E
+    //   B C D E
+    //     C D E
+    //       D E
+    //         E
 #include <iostream>
 
 using namespace std;
 
 int main()
 {
-    // A B C D E
-    //   A B C D
-    //     A B C
-    //       A B
-    //         A
+  
 
-    for (char i = 'E'; i >= 'A'; i--) 
+    for (char i = 'A'; i <= 'E'; i++) 
     {
-        for (char k = 'E'; k > i; k--) 
+        for (char k = 'A'; k < i; k++) 
         {
             cout << " ";
         }
-        for (char j = 'A'; j <= i; j++) 
+        for (char j = i; j <= 'E'; j++) 
         {
             cout << j ;
         }
