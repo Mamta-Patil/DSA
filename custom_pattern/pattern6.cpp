@@ -18,27 +18,14 @@ int main()
 			{
 				cout <<  "*";
 			}
-//			else if(i==2 && j==5)
-//			{
-//				cout << " *";
-//			}
 			else if(i==3 && j==5)
 			{
 				cout << " *";
 			}	
-//			else if(i==5 && j==5)
-//			{
-//				cout << " *";
-//			}
-//				else if(i==6 && j==5)
-//			{
-//				cout << " *";
-//			}
 			else
 			{
 				cout << " ";
 			}
-			
 		}
 		cout << endl;
 	}

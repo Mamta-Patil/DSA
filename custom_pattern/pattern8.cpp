@@ -16,11 +16,7 @@ int main()
 			if(j==1 || i==1 || i==7  )
 			{
 				cout <<  "*";
-			}
-//			else if(i==3 && j==5)
-//			{
-//				cout << " *";
-//			}	
+			}	
 			else
 			{
 				cout << " ";

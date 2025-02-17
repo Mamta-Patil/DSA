@@ -5,6 +5,7 @@
 //*
 //*
 //* * * *
+
 #include<iostream>
 using namespace std;
 int main()
@@ -16,11 +17,7 @@ int main()
 			if(j==1 || i==1 ||  i==4 || i==7 )
 			{
 				cout <<  "*";
-			}
-//			else if(i==3 && j==5)
-//			{
-//				cout << " *";
-//			}	
+			}	
 			else
 			{
 				cout << " ";
