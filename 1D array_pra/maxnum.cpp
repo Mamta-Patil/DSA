@@ -19,5 +19,5 @@ int main()
 			max=arr[i];
 		}
 	}
-	cout << "The maxiumum value is : " << max << endl;
+	cout << "maxiumum value is : " << max << endl;
 }

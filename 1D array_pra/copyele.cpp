@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
 int n;
-cout << "Enter sixe of n:";
+cout << "Enter size of n:";
 cin >> n;
 int arr1[n];
 int arr2[n];
@@ -23,7 +23,5 @@ for(int i=0;i<n;i++)
 	cout << arr2[i]<< " ";
 }
 cout<< endl;
-
-
 
 }
