@@ -23,17 +23,10 @@ int main()
 		cout << endl;
 	}
 	for(int i=0;i<r;i++){
-//			for(int j=0;j<c;j++){
-//				if(i==j)
-//				{
-//				sum=sum+arr[i][j]; 	
-//				} 
-//		}
-
-sum=sum+arr[i][start];
-start--;
-		cout << endl;
+                sum=sum+arr[i][start];
+                start--;
+		        cout << endl;
 	}
-	 cout << sum;  
+	            cout << sum;  
 }
 
