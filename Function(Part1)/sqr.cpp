@@ -14,6 +14,6 @@ int main()
 	cin >> num;
 	
 	int result=square(num);
-	cout << "The sequare of num " << "is " << result << "." << endl; 
+	cout << "The sequare of " << num << " is " << result << "." << endl; 
 	return 0;
 }

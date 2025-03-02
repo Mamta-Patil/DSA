@@ -1,4 +1,4 @@
-    // wap to find cube using udf.
+// wap to find cube using udf.
 #include<iostream>
 using namespace std;
 int cube(int number)
