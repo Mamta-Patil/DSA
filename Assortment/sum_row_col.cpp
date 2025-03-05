@@ -53,6 +53,7 @@ int main()
         }
         cout << endl << "The sum of column " << columnNumber << ": " << columnSum << endl;
     }
+    
     else
     {
         cout << "Invalid column number!" << endl;
@@ -60,3 +61,4 @@ int main()
 
     return 0;
 }
+
